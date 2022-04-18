@@ -7,6 +7,7 @@
   --title-color: #212121;
   --dark-bg-color: #2f303a;
   --hero-title-color: #ffffff;
+  --hero-bg-color: rgba(47, 48, 58, 0.4);
   --btn-text-color: #ffffff;
   --btn-bg-color: #f5f4fa;
   --feature-title-color: #212121;
@@ -164,35 +165,13 @@ img {
   padding-bottom: 200px;
   text-align: center;
 
-background: #780206;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: var(--dark-bg-color);
+  background-image: linear-gradient(var(--hero-bg-color), var(--hero-bg-color)), url(../images/hero-bg.jpg);
 
-    /* background-image: repeating-linear-gradient(
-    -45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-  ); */
-  /* background-color: var(--dark-bg-color);
-  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg');
-  /* url('https://cdn.pixabay.com/photo/2020/10/07/10/51/mountains-5634817_1280.jpg'); */
-  background-position: left top;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll; */
-
-  /* background-image: url('https://cdn-icons-png.flaticon.com/512/361/361678.png'),
-    url('https://cdn-icons-png.flaticon.com/512/4206/4206277.png'),
-    url('https://cdn-icons-png.flaticon.com/512/814/814513.png'),
-    url('https://tlgrm.ru/_/stickers/e3a/876/e3a87689-707f-3495-b94a-8ee96e2538e5/39.webp'),
-    url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg');
-
-  background-size: 80px, 100px, 150px, 130px, cover;
-  background-repeat: no-repeat;
-  background-position: top 120px right 130px, top 270px left 130px, center, 100px 60px, center; */
+  background-attachment: scroll;
 }
 
 .hero-title {
@@ -291,9 +270,9 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 .work-list .item {
   width: 370px;
 
-box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
--webkit-box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
--moz-box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
+  box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
 }
 
 .work-list .item + .item {
@@ -313,9 +292,9 @@ box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
   border-radius: 0px 0px 4px 4px;
   border: 1px solid var(--border-color);
 
-  box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
--webkit-box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
--moz-box-shadow: 9px 21px 31px 1px rgba(0,0,0,0.77);
+  box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 9px 21px 31px 1px rgba(0, 0, 0, 0.77);
 }
 
 .team-list .item + .item {
