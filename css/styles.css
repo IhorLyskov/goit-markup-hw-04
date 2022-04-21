@@ -34,10 +34,6 @@
 body {
   font-family: 'Roboto', Tahoma, sans-serif;
 
-  /* letter-spacing: -0.015em;
-  font-size: 18px;
-  line-height: 1.67; */
-
   /* Основной цвет - цвет абзацев */
   color: var(--main-color);
   /* Основной фон страницы */
@@ -163,6 +159,7 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
   text-align: center;
 
   background-color: var(--dark-bg-color);
@@ -170,8 +167,8 @@ img {
 
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  /* background-repeat: no-repeat; */
+  max-width: 1600px;
 }
 
 .hero-title {
