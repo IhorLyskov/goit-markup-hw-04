@@ -16,6 +16,7 @@
   --footer-addr-color: #ffffff;
   --footer-tel-color: rgba(255, 255, 255, 0.6);
   --border-color: #eeeeee;
+  --logo-color: #AFB1B8;
 }
 
 .visually-hidden {
@@ -129,6 +130,8 @@ img {
 .auth-nav {
   display: flex;
   margin-left: auto;
+  fill: var(--main-color);
+  align-items:center;
 }
 
 .auth-nav .auth-tel + .auth-tel {
@@ -154,6 +157,12 @@ img {
   color: var(--accent-color);
 }
 
+.ico-tel {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  order:1;
+}
 /* ---------------------HERO--------------------- */
 
 .hero {
