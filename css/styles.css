@@ -453,7 +453,7 @@ img {
   font-style: normal;
   color: var(--footer-tel-color);
 
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .footer-tel:hover,
