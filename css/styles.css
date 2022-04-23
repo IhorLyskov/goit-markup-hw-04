@@ -253,9 +253,12 @@ img {
 .feature-ico {
   background-color: var(--team-bg-color);
   border-radius: 4px;
-  padding: 25px 100px;
+  height: 120px;
   margin-top: 0px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature-list .title {
@@ -370,7 +373,9 @@ img {
 }
 
 .team-soc-icon:hover,
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-icon:focus,
+.team-soc-link:focus {
   background-color: var(--accent-color);
   fill: var(--team-card-color);
   color: var(--team-card-color);
@@ -399,7 +404,8 @@ img {
   margin-left: 30px;
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
@@ -499,7 +505,9 @@ img {
 }
 
 .join-soc-icon:hover,
-.join-soc-link:hover {
+.join-soc-link:hover,
+.join-soc-icon:focus,
+.join-soc-link:focus {
   background-color: var(--accent-color);
 }
 /* ---------------------PORTFOLIO--------------------- */
